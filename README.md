@@ -179,11 +179,18 @@ claude
 
 MIT © 2026 hubugui1111-lab
 
-## 🙏 Acknowledgements
+## 🙏 Acknowledgements / 致谢
 
-- [Claude Code](https://claude.ai/code) by Anthropic
-- [paper-distill-mcp](https://github.com/) by community
-- [academic-mcp](https://github.com/) by community
-- [pdf-mcp](https://github.com/nickliqian/pdf-mcp) by nickliqian
-- [agent-papers-cli](https://github.com/) by community
-- All open-source MCP and Python packages used in this project
+本项目站在巨人的肩膀上。以下开源项目为本工作台提供核心能力：
+
+| 项目 | 作者 | 许可证 | 用途 |
+|------|------|--------|------|
+| [paper-distill-mcp](https://github.com/eclipse-cj/paper-distill-mcp) | Eclipse-Cj | **AGPL-3.0** | 11 源学术搜索 |
+| [academic-mcp](https://github.com/LinXueyuanStdio/academic-mcp) | Xueyuan Lin | MIT | 19 源学术搜索 |
+| [pdf-mcp](https://github.com/jztan/pdf-mcp) | jztan | MIT | 本地 PDF 阅读 |
+| [agent-papers-cli](https://github.com/collaborative-deep-research/agent-papers-cli) | Collaborative Deep Research | MIT | CLI 论文阅读 |
+| [academix](https://github.com/Academix) | Academix | MIT | OpenAlex 专精搜索 |
+| [arxiv-paper-mcp](https://github.com/langgpt/arxiv-paper-mcp) | LangGPT | MIT | arXiv 全文解析 |
+| [Claude Code](https://claude.ai/code) | Anthropic | Proprietary | AI 代理运行环境 |
+
+> ⚠️ **许可证说明：** 本项目使用 MIT 许可证。依赖的 `paper-distill-mcp` 为 AGPL-3.0，在"聚合分发"场景（不作为库链接）下无冲突。如修改并分发 `paper-distill-mcp` 本身，需遵守 AGPL-3.0。
