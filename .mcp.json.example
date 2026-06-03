@@ -1,0 +1,29 @@
+{
+  "mcpServers": {
+    "paper-distill": {
+      "command": "paper-distill-mcp",
+      "env": {}
+    },
+    "academic-mcp": {
+      "command": "python",
+      "args": ["-m", "academic_mcp"],
+      "env": {}
+    },
+    "academix": {
+      "command": "academix",
+      "env": {
+        "ACADEMIX_EMAIL": "your@email.com"
+      }
+    },
+    "arxiv-paper-mcp": {
+      "command": "node",
+      "args": ["path/to/@langgpt/arxiv-paper-mcp/build/index.js"],
+      "env": {}
+    },
+    "pdf-mcp": {
+      "command": "python",
+      "args": ["-m", "pdf_mcp"],
+      "env": {}
+    }
+  }
+}

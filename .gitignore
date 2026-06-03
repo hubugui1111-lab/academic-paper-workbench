@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Environment / secrets
+.env
+.env.local
+.mcp.json
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project-specific
+papers/*.pdf
+downloads/
+Academix/
+.agents/
+.learnings/
+
+# Skills symlinks
+.claude/skills/efficient-literature-survey
+
+# Claude Code personal data
+.claude/settings.local.json
+.claude/memory/
+.claude/memories.json
+skills-lock.json
